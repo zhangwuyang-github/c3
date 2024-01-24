@@ -1,7 +1,8 @@
 使用monorepo模式进行管理
 
--[packages]--[frontend] next.js + typescript
-           --[backend] nest.js + typescript
-           --[mobile] react native + typescript
-
-# TODOList
+|  模块   | 技术栈  | 解释
+|  ----  | ----  | ----
+| packages/dto | typescript | 维护全局类型dto
+| packages/frontend | next.js + typescript | web前端项目
+| packages/backend | nest.js + typescript | 接口
+| packages/mobile | react native + typescript | 移动端项目
